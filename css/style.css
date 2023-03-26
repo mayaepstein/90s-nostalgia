@@ -29,7 +29,7 @@ img {
     margin-right: auto;
 }
 
-.wrapper { /* check this later */
+.wrapper { 
     max-width: 900px;
     margin: auto;
     padding: 1.5em 0;
@@ -39,12 +39,15 @@ header {
     padding: 1.5em 0;
 }
 
-nav ul li { /*check*/
+nav ul li {
     list-style-type: none;
     display: inline;
     padding: none;
     text-align: center;
+}
 
+nav {
+    text-align: center;
 }
 
 nav a{
@@ -95,7 +98,7 @@ nav a:focus {
 .trends figure {
     width: 22%;
     display: inline-block;
-    text-align: center; /*check*/
+    text-align: center;
 }
 
 .trends figure figcaption {
@@ -114,8 +117,8 @@ nav a:focus {
     margin: 0 2em 0 0;
 }
 
-.fashion-icons {
-    background-color: aqua;
+.icon + p{
+    clear: left;
 }
 
 .featured-articles {
